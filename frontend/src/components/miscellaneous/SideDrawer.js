@@ -163,14 +163,11 @@ const handleSearch = async() => {
 					effect={Effect.SCALE}
 					/>
 
-
-
 						<BellIcon fontSize="2xl" m={1}/>
 
 				</MenuButton>
-
-
-						<MenuList pl={2}>
+					
+					<MenuList pl={2}>
 							{!notification.length && " No new messages"}
 								
 								{notification.map(notif => (
